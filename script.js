@@ -127,13 +127,13 @@ function renderUnityProjects() {
         var projectName = document.createElement('span');
         projectName.innerText = project.name;
         projectName.classList.add('unity-project-name');
-        var projectDesc = document.createElement('p');
-        projectDesc.innerText = project.description;
-        projectDesc.classList.add('unity-project-desc');
+        // var projectDesc = document.createElement('p');
+        // projectDesc.innerText = project.description;
+        // projectDesc.classList.add('unity-project-desc');
         columnElement.setAttribute("data-aos", "fade-up");
         columnElement.appendChild(projectLink);
         columnElement.appendChild(projectName);
-        columnElement.appendChild(projectDesc)
+        // columnElement.appendChild(projectDesc)
         projectGrid.appendChild(columnElement);
     });
 }
