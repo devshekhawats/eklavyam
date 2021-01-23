@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#hero-section {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#hero-section video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#hero-text-container {
+    font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 50px;
+}
+
+.emphasis {
+    color: yellow;
+}
+
+@media only screen and (max-width: 600px) {
+    #hero-text-container {
+        font-size: 30px;
+    }
+}
+
+#html5-projects {
+    width: 100vw;
+    padding: 50px 0;
+    background-color: #000;
+}
+
+.projects-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.project-heading {
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.project-link {
+    width: 100%;
+    display: block;
+    height: 234px;
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 32px;
+    position: relative;
+    transform: scale(1);
+    transition: all 300ms;
+}
+
+.project-link:hover {
+    transform: scale(1.09);
+}
+
+.project-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: yellow;
+    font-family: 'Press Start 2P', cursive;
+    color: #000;
+}
+
+@media only screen and (max-width: 1086px) {
+    .projects-container {
+        max-width: 700px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .projects-container {
+        max-width: 90%;
+    }
+}
