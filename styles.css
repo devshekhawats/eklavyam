@@ -90,11 +90,11 @@
     color: yellow;
     display: block;
     font-family: 'Press Start 2P', cursive;
+    margin-bottom: 32px;
 }
 
 .unity-project-desc {
     color: #fff;
-    margin-bottom: 32px;
 }
 
 #contact-section {
